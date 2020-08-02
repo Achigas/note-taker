@@ -15,5 +15,9 @@ router.post("/notes", (req, res) => {
     res.json(note);
 })
 
+router.delete("/notes/:id", (req, res) => {
+    notes.splice(req.body.id, 1)
+})
+
 
 module.exports = router;
