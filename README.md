@@ -15,10 +15,10 @@
 The user can write, save, and delete notes and reminders. Enter a note title and a note body and hit save. 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Note Taker Screenshot](./public/images/Note-taker.png)
 
 ## Deployed URL
-[]()
+[Heroku Deployment](https://damp-bastion-26381.herokuapp.com/notes)
 
 ## Setup
 * run npm install
