@@ -18,7 +18,7 @@ The user can write and save notes and reminders. Enter a note title and a note b
 ![Note Taker Screenshot](./public/images/Note-taker.png)
 
 ## Deployed URL
-[Heroku Deployment](https://damp-bastion-26381.herokuapp.com/notes)
+[Heroku Deployment](https://damp-bastion-26381.herokuapp.com)
 
 ## Setup
 * run npm install
