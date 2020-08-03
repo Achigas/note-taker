@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-The user can write, save, and delete notes and reminders. Enter a note title and a note body and hit save. 
+The user can write and save notes and reminders. Enter a note title and a note body and hit save. 
 
 ## Screenshots
 ![Note Taker Screenshot](./public/images/Note-taker.png)
