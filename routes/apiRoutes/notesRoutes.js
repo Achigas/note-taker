@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { createNewNote } = require("../../lib/notes");
+const { createNewNote, updateDb } = require("../../lib/notes");
 const { notes } = require("../../db/db");
 const uniqid = require("uniqid")
 
@@ -15,9 +15,17 @@ router.post("/notes", (req, res) => {
     res.json(note);
 })
 
-//router.delete("/notes/:id", (req, res) => {
-    //otes.splice(req.body.id, 1)
-//})
+router.delete("/notes/:id", (req, res) => {
+    const idDeleted = req.params.id.toString();
+
+    for (let i = 0; i < notes.length; i++) {
+        if (notes[i].id === idDeleted) {
+            notes.splice(i, 1)
+        } 
+    } 
+
+    updateDb(notes);
+});
 
 
 module.exports = router;
